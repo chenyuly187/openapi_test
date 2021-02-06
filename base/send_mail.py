@@ -15,10 +15,10 @@ def _format_addr(s):
 
 def sendMail():
     '''输入邮箱地址'''
-    from_addr = "15021847009@163.com"
-    password = 'lysh471000'
+    from_addr = ""
+    password = ''
     # 输入收件人地址
-    to_list = ['1178821890@qq.com']
+    to_list = ['']
     # 输入SMTP服务器地址
     smtp_server = 'smtp.163.com'
 

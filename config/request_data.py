@@ -3,7 +3,7 @@
 import os
 class RequestData(object):
     # 维护Appid
-    appid = '06cb264f5655425cb2a08d641103b42b'
+    appid = ''
 
 
     token = ''
@@ -18,7 +18,7 @@ class RequestData(object):
  			"平台":"微信"
 	}
 }
-    userid = 'bb3e3925f0ad11e7bd860242ac120003'
+    userid = ''
     openapi_dialogue_data_path = os.path.abspath(os.path.join(os.path.dirname(__file__),os.pardir)) + '/Files/automatic_file.xlsx'
     openapi_dialogue_data_result_path = os.path.abspath(os.path.join(os.path.dirname(__file__),os.pardir)) + '/Files/general_result.xlsx'
 
