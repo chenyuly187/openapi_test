@@ -15,6 +15,7 @@ class TestAll(unittest.TestCase):
         except:
             raise
     def test_02_chat_openapi(self):
+        '''XXXX'''
         chat_openapi = OpenApi()
         chat_openapi.run_openapi()
 
